@@ -51,6 +51,8 @@ function App() {
     <div className="min-h-screen w-full bg-gray-50 flex flex-col items-center justify-start p-4">
       <h1 className="text-2xl font-bold text-gray-800 mb-8">avatar generator</h1>
 
+      <p className="text-sm mb-8">for my fellow github users who got unlucky</p>
+
       <div className="w-full flex justify-center">
         <Identicon size={250} grid={grid} color={color} />
       </div>
